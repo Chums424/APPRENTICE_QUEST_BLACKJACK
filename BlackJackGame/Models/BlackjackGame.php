@@ -2,7 +2,7 @@
 
 // ゲームクラスを作成
 
-namespace Blackjack\Models;
+namespace BlackjackGame\Models;
 
 class BlackjackGame
 {
