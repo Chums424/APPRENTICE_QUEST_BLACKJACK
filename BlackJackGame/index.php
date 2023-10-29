@@ -3,18 +3,18 @@
 // ブラックジャックゲーム
 
 // 各クラスを読み込む
-include 'classes/Card.php';
-include 'classes/Deck.php';
-include 'classes/Player.php';
-include 'classes/Dealer.php';
-include 'classes/BlackjackGame.php';
+include 'Models/Card.php';
+include 'Models/Deck.php';
+include 'Models/Player.php';
+include 'Models/Dealer.php';
+include 'Models/BlackjackGame.php';
 
 // 名前空間を指定して各クラスをインポート
-use Chums424\Card;
-use Chums424\Deck;
-use Chums424\Player;
-use Chums424\Dealer;
-use Chums424\BlackjackGame;
+use BlackjackGame\Models\Card;
+use BlackjackGame\Models\Deck;
+use BlackjackGame\Models\Player;
+use BlackjackGame\Models\Dealer;
+use BlackjackGame\Models\BlackjackGame;
 
 // ゲームを開始
 $game = new BlackjackGame();

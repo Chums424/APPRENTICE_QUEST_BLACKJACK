@@ -2,7 +2,7 @@
 
 // カードクラスを作成
 
-namespace Chums424;
+namespace BlackjackGame\Models;
 
 class Card
 {
