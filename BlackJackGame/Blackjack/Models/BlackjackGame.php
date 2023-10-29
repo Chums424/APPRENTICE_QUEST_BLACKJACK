@@ -2,7 +2,7 @@
 
 // ゲームクラスを作成
 
-namespace Chums424;
+namespace Blackjack\Models;
 
 class BlackjackGame
 {
